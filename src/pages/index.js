@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "@/components/logo";
+import styles from "@/styles/pages/index.module.css";
 
 export default function Home() {
     return (
@@ -27,7 +28,7 @@ export default function Home() {
             </nav>
 
             <main className={'main-container'}>
-                Teste
+                Página Inicial
             </main>
         </div>
     );
